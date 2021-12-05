@@ -14,5 +14,82 @@ Add your timetable
 Execute the program
 
 # CODE
+~~~
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>TIME TABLE</title>
+   </head>
+	
+   <body>
+      <table border = "1" cellspacing="1" bordercolor="blue" bgcolor="yellow">
+         <tr>
+            <th colspan="8">TIME TABLE</th>
+         </tr>
+ <tr> 
+<th>REFERENCE NUMBER</th>
+<th>21500481</th>  
+<th>        </th>
+  <th>NAME:</th>
+  <th>NaveenKumar.S</th>
+         <tr>
+            <th>DAYS</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+             <th>4</th>
+            <th rowspan="6">lunch break</th>
+            <th>5</th>
+            <th>6</th>
+         </tr>
+        
+<tr>
+<th>MONDAY</th>
+<th>fundamentals of web technology</th>
+<th>fundamentals of web technology</th>
+<th>linear algebra laboratory</th>
+<th>linear algebra laboratory</th>
+<th>mathematics for artificial inteligence</th>
+<th>mathematics for artificial inteligence</th>
+
+</tr>     
+
+<tr>
+<th>TUESDAY</th> 
+<th>soft skills</th>
+<th>soft skills</th>
+<th>engineeing mechanics and product development</th>
+<th>engineeing mechanics and product development</th>
+<th>engineering desigin and modeling</th>
+<th>engineering desigin and modeling</th>
+<tr>
+<th>WEDNESDAY</th>
+<td align="center">-</td>
+<td align="center">-</td>
+<th>mathematics for artificial inteligence</th>
+<th>mathematics for artificial inteligence</th>
+<th>fundamentals of web technology</th>
+<th>fundamentals of web technology</th>
+<tr>
+<th>THURSDAY</th>
+<th>engineering desigin and modeling</th>
+<th>engineering desigin and modeling</th>
+<th>python programming</th>
+<th>python programming</th>
+<th>engineeing mechanics and product development</th>
+<th>engineeing mechanics and product development</th>
+<tr>
+<th>FRIDAY</th>
+<td align="center">-</td> 
+<td align="center">-</td>
+<th>python programming</th>
+<th>python programming</th>
+<th>web technology laboratory</th>   
+<th>web technology laboratory</th>
+<tr>
+~~~
 
 # OUPUT
+![logo](./logo.png)
+![clientoutput](./timetable.png)
